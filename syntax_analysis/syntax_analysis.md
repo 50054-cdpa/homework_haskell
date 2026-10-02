@@ -55,7 +55,7 @@ C ::= a || ... || z || 1 || ... || 0
 
 Given the grammar after applying left factorization, `<<grammar 2>>`
 
-Show that the resulting grammar `<<grammar 2>>` is `LL(1)`.
+Verify whether the resulting grammar `<<grammar 2>>` is `LL(1)`.
 
 Explain your answer in the `task3_answer.md`. 
 
