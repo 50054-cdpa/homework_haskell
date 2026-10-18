@@ -67,7 +67,7 @@ eps(\phi) & = & false
 \end{array}
 ```
 
-We can define $match(w,r)$ in terms of $deriv(\_,\_)$. 
+We can define $match(w,r)$ in terms of $deriv(\textunderscore,\textunderscore)$. 
 
 ```math
 match(w,r) = \left \{
@@ -238,7 +238,7 @@ we could apply this equation from left to right or right to left. However, to av
 
 The ordering between two letters, can be determined by their alphabetic or ascii ordering, e.g. $a < b$.
 
-For choice, sequence and kleene's star, we compare the sub-expressions when two regular expressions are equal at the top level.
+For choice, sequence and Kleene's star, we compare the sub-expressions when two regular expressions are equal at the top level.
 
 ```math
 \begin{array}{rc}
@@ -461,4 +461,4 @@ mkEfficientSM r =
 
 ### Test cases
 
-Your code should pass all the test cases with "test: runStateMachine (mkEfficientSM  ... )"
+Your code should pass all the test cases with `test: runStateMachine (mkEfficientSM  ... )`
